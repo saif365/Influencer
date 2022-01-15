@@ -56,7 +56,14 @@ nav h3{
 }
 .half-width img{
     width: 500px;
+   
+    transition: .5s ease-in-out;
 }
+.half-width img:hover{
+    
+    transform: rotate(180deg);
+}
+
 .half-width p{
     font-size: 30px;
 
