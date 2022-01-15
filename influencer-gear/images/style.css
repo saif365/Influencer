@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
+   
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
+  overflow: hidden;
 
 }
 /* navber start */
@@ -44,9 +44,9 @@ nav h3{
 
  .top-section{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns:1fr 1fr;
     justify-content: center;
-   align-items: center;
+    align-items: center;
 
  }
  .half-width{
@@ -55,9 +55,12 @@ nav h3{
     margin: 5%;
 }
 .half-width img{
-    width: 100%;
+    width: 500px;
 }
+.half-width p{
+    font-size: 30px;
 
+}
 
 .half-width h1{
     font-size: 40px;
